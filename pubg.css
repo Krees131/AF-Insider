@@ -1,0 +1,394 @@
+body {
+  /* box-sizing: border-box; */
+  margin: 0%;
+  padding: 0%;
+  background: #c292ba;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  background: #c8a1af;
+}
+
+.bottom {
+  width: 100%;
+}
+
+.nav {
+  height: 120px;
+  background: #803a53;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.af-logo {
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-image: url(logos/insider-logo.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 4%;
+}
+.nav-left {
+  width: 20%;
+  height: 100%;
+  margin: auto;
+}
+.nav-center {
+  width: 60%;
+  height: 100%;
+  font-size: 2.5rem;
+  text-align: left;
+  padding-top: 2.4%;
+  color: white;
+}
+
+.nav-right {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.twitter-logo {
+  background-image: url(logos/twitter-logo.svg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 40%;
+  width: 20%;
+  margin: auto;
+}
+.ig-logo {
+  background-image: url(logos/ig-logo.svg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 40%;
+  width: 20%;
+  float: right;
+  margin: auto;
+  margin-left: 0px;
+}
+.transfers {
+  width: 100%;
+  height: 70%;
+}
+.transfer-header {
+  height: 12.5%;
+  width: 100%;
+  background: #954d67;
+  padding-top: 1%;
+  text-align: center;
+}
+span {
+  margin-top: 4vh;
+  font-size: 4vh;
+  font-weight: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Verdana, sans-serif;
+  color: white;
+}
+.transfer0,
+.transfer1,
+.transfer2,
+.transfer3,
+.transfer4,
+.transfer5,
+.transfer6 {
+  border-bottom: solid #5b474e 1px;
+  height: 12.5%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  color: #5b474e;
+}
+.date,
+.player,
+.old,
+.new {
+  height: 100%;
+  width: 20%;
+  text-align: center;
+  font-size: 4vh;
+}
+
+.regions,
+.s {
+  height: 100%;
+  width: 10%;
+  text-align: center;
+  font-size: 4vh;
+}
+
+p {
+  margin-top: 2vh;
+}
+.date-info,
+.player-info,
+.old-info,
+.new-info {
+  height: 100%;
+  width: 20%;
+  text-align: center;
+  font-size: 3vh;
+  font-family: Verdana, Tahoma, sans-serif;
+}
+.region-info,
+.s-info {
+  height: 100%;
+  width: 10%;
+  text-align: center;
+  font-size: 4vh;
+}
+
+.old-clan,
+.new-clan {
+  background: black;
+  height: 88%;
+  width: 30%;
+  border-radius: 50%;
+  margin: auto;
+  margin-top: 1.5%;
+}
+.region {
+  height: 65%;
+  width: 60%;
+  background: black;
+  margin: auto;
+  margin-top: 1.5vh;
+}
+.transfer-view-all {
+  width: 10%;
+  height: 75%;
+  margin-left: 45%;
+  margin-top: 0.8vh;
+  border-radius: 4px;
+  background: #954d67;
+  font-size: 2vh;
+  color: white;
+}
+.tournaments {
+  height: 65%;
+  width: 100%;
+  background: #5b474e;
+  margin-top: 5%;
+}
+
+.tourney-header {
+  height: 15%;
+  width: 100%;
+  background: #954d67;
+}
+.tourney-header p {
+  color: white;
+  margin-left: 40%;
+  font-size: 4vh;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Verdana, sans-serif;
+  margin-top: 0%;
+  padding-top: 2vh;
+}
+.tourney1 {
+  border-bottom: red solid 1px;
+  height: 35%;
+  width: 100%;
+}
+.tourney2 {
+  border-bottom: red solid 1px;
+  height: 35%;
+  width: 100%;
+}
+.all-tourney{
+  height: 15%;
+  width: 100%;
+}
+.tourney-view-all {
+  width: 10%;
+  height: 75%;
+  margin-left: 45%;
+  /* margin: auto; */
+  margin-top: 1vh;
+  border-radius: 10%;
+  background: #954d67;
+  font-size: 2vh;
+  color: white;
+}
+.teams {
+  background: #5b474e;
+  width: 100%;
+  height: 80%;
+  margin-top: 4vh;
+  /* margin-bottom: 2vh; */
+}
+.team-header {
+  background: #954d67;
+  height: 13%;
+  width: 100%;
+}
+.team-header p {
+  color: white;
+  margin-left: 45%;
+  font-size: 4vh;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Verdana, sans-serif;
+  margin-top: 0%;
+  padding-top: 2vh;
+}
+.team-row {
+  height: 30%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 3vh;
+  margin-bottom: 2vh;
+}
+.team1 {
+  height: 100%;
+  width: 30%;
+}
+.ag {
+  height: 80%;
+  width: 43%;
+  margin: auto;
+  margin-right: 10%;
+  /* margin-top: 2vh; */
+  /* margin-left: 15%; */
+  border: red solid 1px;
+  border-radius: 50%;
+  /* display: block; */
+}
+.text {
+  color: white;
+  text-align: center;
+  margin-left: 40%;
+  font-size: 1.5vw;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Verdana, sans-serif;
+  margin-top: 1%;
+}
+.team2 {
+  height: 100%;
+  width: 30%;
+}
+.team3 {
+  height: 100%;
+  width: 30%;
+}
+
+
+.all-teams{
+  height: 17%;
+  width: 100%;
+}
+.team-view-all {
+  width: 10%;
+  height: 55%;
+  margin-left: 45%;
+  margin-top: 2.5vh;
+  border-radius: 10%;
+  background: #954d67;
+  font-size: 2vh;
+  color: white;
+}
+.contact {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  flex-direction: row;
+}
+.contact-div {
+  margin: auto;
+  margin-right: 0%;
+  margin-left: 40%;
+  font-size: 100%;
+}
+.twitter-logo2 {
+  background-image: url(logos/twitter-logo.svg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 35%;
+  width: 5%;
+  margin: auto;
+  margin-left: 0;
+}
+.ig-logo2 {
+  background-image: url(logos/ig-logo.svg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 35%;
+  width: 5%;
+  margin: auto;
+  margin-right: 0.7%;
+  margin-left: 1%;
+}
+@media screen and (max-width: 500px) {
+  .nav-center {
+    font-size: 5vw;
+  }
+ 
+  .af-logo {
+    height: 75%;
+    width: 95%;
+    margin-top: 1.5vh;
+  }
+  .nav {
+    height: 10%;
+  }
+  .nav-center{
+    padding: 2vh;
+  }
+  .twitter-logo{
+    height: 65%;
+    width: 45%;
+  }
+  .ig-logo{
+    height: 65%;
+    width: 45%;
+    margin-left: 1vw;
+  }
+  .headlines {
+    height: 3%;
+    font-size: 1.5vh;
+  }
+  
+  .footer {
+    height: 49%;
+  }
+  .partners {
+    height: 20%;
+  }
+  .contact {
+    height: 10%;
+    font-size: 3vw;
+    margin-left: 0%;
+  }
+  .contact-div{
+    margin-left: 10%;
+  }
+  .report {
+    margin-left: 50vw;
+    margin: auto;
+  }
+  .transfer-header{
+    height: 7%;
+  
+  }
+  span{
+    font-size: 2vh;
+  }
+p{
+  font-size: 2vh;
+}
+.transfer1{
+  height: 10%;
+}
+}
+
+
