@@ -96,13 +96,12 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  margin-top:31vh;
-
+  margin-top: 31vh;
 }
 .tourney1 {
-    margin: auto ;
-    margin-right: 0;
-    margin-left: 0%;
+  margin: auto;
+  margin-right: 0;
+  margin-left: 0%;
   height: 90%;
   width: 90%;
   background: white;
@@ -114,62 +113,61 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  margin-top:31vh;
+  margin-top: 31vh;
 }
 
-.tournament-header{
-    height: 8%;
-    width: 90%;
-    margin-top: 4vh;
-    font-size: 3.5vh;
-    padding-top: 1.4%;
-    color: white;
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+.tournament-header {
+  height: 8%;
+  width: 90%;
+  margin-top: 4vh;
+  font-size: 3.5vh;
+  padding-top: 1.4%;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Verdana, sans-serif;
-    background: #954d67;
-    text-align: center;
-    margin: auto;
-    border-radius: 6px;
-    font-weight: bold;
+  background: #954d67;
+  text-align: center;
+  margin: auto;
+  border-radius: 6px;
+  font-weight: bold;
 }
-.filter{
-    height: 15%;
-    width: 90%;
-    margin-top: 1.5vh;
-    margin: auto;
-    margin-top: 2vh;
-    color: #5b474e;
-    font-weight: bold;
-    font-size: 3vh;
-    
-
-  }
-select{
+.filter {
+  height: 15%;
+  width: 90%;
+  margin-top: 1.5vh;
+  margin: auto;
+  margin-top: 2vh;
+  color: #5b474e;
+  font-weight: bold;
+  font-size: 3vh;
+}
+select {
   width: 10vw;
   height: 5vh;
   color: #5b474e;
   font-weight: bold;
-background: pink;
-margin-top: 1vh;
-font-size: 1.2vw;
-font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-"Lucida Sans Unicode", Verdana, sans-serif;
-text-align: center;
-
+  background: pink;
+  margin-top: 1vh;
+  font-size: 1.2vw;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Verdana, sans-serif;
+  text-align: center;
 }
-.tournaments{
-    height: 120%;
-    width: 100%;
-    margin-top: 3vh;
+.tournaments {
+  height: 120%;
+  width: 100%;
+  margin-top: 3vh;
 }
-.tournament1,.tournament2,.tournament3,.tournament4{
-    height: 23%;
-    width: 90%;
-    margin: auto;
-    margin-top: 2vh;
-    border-radius: 5px;
-    background: white;
-
+.tournament1,
+.tournament2,
+.tournament3,
+.tournament4 {
+  height: 23%;
+  width: 90%;
+  margin: auto;
+  margin-top: 2vh;
+  border-radius: 5px;
+  background: white;
 }
 
 .contact {
@@ -177,12 +175,16 @@ text-align: center;
   height: 15%;
   display: flex;
   flex-direction: row;
+  border-top: solid #5b474e 1px;
 }
 .contact-div {
   margin: auto;
   margin-right: 0%;
   margin-left: 40%;
   font-size: 100%;
+}
+.report {
+  margin: auto;
 }
 .twitter-logo2 {
   background-image: url(logos/twitter-logo.svg);
@@ -205,4 +207,125 @@ text-align: center;
   margin-right: 0.7%;
   margin-left: 1%;
 }
+@media screen and (max-width: 500px) {
+  .nav-center {
+    font-size: 2.5vh;
+  }
+
+  .af-logo {
+    height: 70%;
+    width: 100%;
+    margin-top: 1.5vh;
+    margin-left: 1vw;
+  }
+  .nav {
+    height: 10%;
+  }
+  .nav-center {
+    padding: 2vh;
+  }
+  .twitter-logo {
+    height: 65%;
+    width: 45%;
+  }
+  .ig-logo {
+    height: 65%;
+    width: 45%;
+    margin-left: 1vw;
+    margin-right: 2vw;
+  }
+  .headlines {
+    height: 3%;
+    font-size: 1.5vh;
+  }
+  .main-tourneys {
+    height: 35%;
+  }
+  .tourney1,
+  .tourney2,
+  .tourney3 {
+    width: 80%;
+    margin: auto;
+  }
+  .scroll-left {
+    margin-top: 40%;
+    margin-left: 2%;
+  }
+  .scroll-right {
+    margin-top: 40%;
+    margin-right: 2%;
+  }
+  .tournament-header {
+    height: 4%;
+    font-size: 2vh;
+  }
+  .filter {
+    height: 10%;
+  }
+  .filter-text {
+    font-size: 2.2vh;
+  }
+  select {
+    height: 4vh;
+    width: 22vw;
+    font-size: 3vw;
+  }
+  .tournaments {
+    height: 54%;
+    margin-top: 2vh;
+  }
+  .tournament1,
+  .tournament2,
+  .tournament3,
+  .tournament4 {
+    height: 22%;
+  }
+
+  .contact {
+    height: 40%;
+  }
+  .contact-div {
+    /* height: 100%; */
+    margin-top: 2vh;
+    margin-bottom: 0;
+    margin-left: 20%;
+    height: 10%;
+    font-size: 1.5vh;
+  }
+  .ig-logo2 {
+    margin-top: 0.9vh;
+    height: 10%;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-bottom: 0;
+  }
+  .report {
+    margin-top: 2vh;
+    margin-bottom: 0;
+    height: 10%;
+    font-size: 1.5vh;
+  }
+  .twitter-logo2 {
+    margin-top: 0.9vh;
+    height: 10%;
+    margin-right: 1vw;
+    margin-bottom: 0;
+  }
+}
+@media screen and (max-height: 736px) and (max-width: 500px) {
+  .contact {
+    height: 30%;
+  }
+  .twitter-logo2{
+    margin-top: 1.5vh;
+  }
+  .ig-logo2{
+    margin-top: 1.5vh;
+  }
+}
+ @media screen and (max-height: 667px) and (max-width: 375px) {
+  .contact {
+    height: 22%;
+  }
+} 
 

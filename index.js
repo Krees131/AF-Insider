@@ -11,6 +11,7 @@ let Tourneys = [".game1",".game2", ".game3", ".game4"]
 
 let count = 0
 let screenWidth = window.screen.width
+let screenHt = window.screen.height
 
 
 if (screenWidth > 500) {
@@ -27,8 +28,8 @@ if (screenWidth > 500) {
             count++
             //  if count == 
             console.log(count)  
-            console.log(Tourneys) 
-            alert("size is " + window.screen.width)
+            alert("the screenWidth" + screenWidth+ screenHt) 
+            
         });
         $(".scroll-left").click(function scroll(){
             $(Tourneys[count-1]).show(1000)

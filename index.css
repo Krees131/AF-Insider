@@ -362,38 +362,40 @@ body {
 }
 .contact {
   width: 100%;
-  height: 40%;
+  height: 15%;
   display: flex;
   flex-direction: row;
-  font-size: 3vh;
+  margin-top: 2vh;
 }
+
 .contact-div {
   margin: auto;
   margin-right: 0%;
   margin-left: 40%;
+  font-size: 100%;
 }
-
 .twitter-logo2 {
   background-image: url(logos/twitter-logo.svg);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  height: 40%;
+  height: 100%;
   width: 5%;
-  margin-top: auto;
-  margin-bottom: auto;
+  margin: auto;
+  margin-left: 0;
+  margin-right: 10%;
 }
 .ig-logo2 {
   background-image: url(logos/ig-logo.svg);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  height: 40%;
+  height: 100%;
   width: 5%;
-  margin-top: auto;
-  margin-bottom: auto;
+  margin: auto;
+  margin-right: 0.7%;
+  margin-left: 1%;
 }
-
 a:-webkit-any-link {
   text-decoration: none;
 }
@@ -466,10 +468,13 @@ a {
     height: 35%;
   }
   .footer {
-    height: 49%;
+    height: 50%;
   }
   .partners {
     height: 20%;
+  }
+  .ig-logo2{
+    margin-right: 2vw;
   }
   .contact {
     height: 10%;
@@ -482,6 +487,13 @@ a {
   .report {
     margin-left: 50vw;
     margin: auto;
+  }
+  .partner1, .partner2,.partner3{
+    width: 15%;
+  }
+  .partner1{
+    margin-left: 24%;
+
   }
 
 }

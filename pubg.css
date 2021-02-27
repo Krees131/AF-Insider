@@ -203,7 +203,7 @@ p {
   height: 35%;
   width: 100%;
 }
-.all-tourney{
+.all-tourney {
   height: 15%;
   width: 100%;
 }
@@ -280,8 +280,7 @@ p {
   width: 30%;
 }
 
-
-.all-teams{
+.all-teams {
   height: 17%;
   width: 100%;
 }
@@ -307,6 +306,9 @@ p {
   margin-left: 40%;
   font-size: 100%;
 }
+.report{
+  margin: auto;
+}
 .twitter-logo2 {
   background-image: url(logos/twitter-logo.svg);
   background-position: center;
@@ -328,67 +330,183 @@ p {
   margin-right: 0.7%;
   margin-left: 1%;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 500px)  {
   .nav-center {
-    font-size: 5vw;
+    font-size: 2.5vh;
   }
- 
+
   .af-logo {
-    height: 75%;
-    width: 95%;
+    height: 70%;
+    width: 100%;
     margin-top: 1.5vh;
+    margin-left: 1vw;
   }
   .nav {
     height: 10%;
   }
-  .nav-center{
+  .nav-center {
     padding: 2vh;
   }
-  .twitter-logo{
+  .twitter-logo {
     height: 65%;
     width: 45%;
   }
-  .ig-logo{
+  .ig-logo {
     height: 65%;
     width: 45%;
     margin-left: 1vw;
+    margin-right: 2vw;
   }
   .headlines {
     height: 3%;
     font-size: 1.5vh;
   }
+
   
-  .footer {
-    height: 49%;
+  .transfer-header {
+    height: 8%;
   }
-  .partners {
-    height: 20%;
-  }
-  .contact {
-    height: 10%;
-    font-size: 3vw;
-    margin-left: 0%;
-  }
-  .contact-div{
-    margin-left: 10%;
-  }
-  .report {
-    margin-left: 50vw;
-    margin: auto;
-  }
-  .transfer-header{
-    height: 7%;
-  
-  }
-  span{
+  span {
     font-size: 2vh;
   }
-p{
-  font-size: 2vh;
+  p {
+    font-size: 1.6vh;
+    margin-top: 1.2vh;
+  }
+
+  .old-clan,
+  .new-clan {
+    width: 50%;
+    height: 70%;
+    margin-top: 1vh;
+  }
+  .region {
+    height: 45%;
+    width: 100%;
+    margin-top: 40%;
+  }
+  .s p{
+    margin-top: 1.5vh;
+  }
+ 
+  .transfers {
+    height: 40%;
+  }
+  .transfer1,
+  .transfer2,
+  .transfer3,
+  .transfer4,
+  .transfer5,
+  .transfer6 {
+    height: 15%;
+  }
+
+  .tourney-header p {
+    font-size: 2vh;
+    margin-left: 31%;
+    padding-top: 1vh;
+  }
+  .tourney-header {
+    height: 15%;
+  }
+  .tournaments {
+    height: 40%;
+  }
+  .tourney-view-all {
+    width: 20%;
+    height: 65%;
+    font-size: 2.5vw;
+    margin-left: 40%;
+  }
+  .team-header {
+    height: 10%;
+  }
+  .team-header p {
+    font-size: 2vh;
+    margin-left: 40%;
+    padding-top: 1vh;
+  }
+  .team-row {
+    height: 28%;
+  }
+  .teams {
+    height: 50%;
+  }
+  .ag {
+    height: 68%;
+    width: 75%;
+    margin-left: 26%;
+  }
+  .text {
+    margin-left: 25%;
+    font-size: 1.5vh;
+  }
+  .all-teams {
+    height: 10%;
+  }
+  .team-view-all {
+    width: 23%;
+    height: 80%;
+    font-size: 2.5vw;
+    margin-left: 39%;
+  }
+  .contact {
+    height: 38%;
+  }
+  .contact-div {
+    /* height: 100%; */
+    margin-top: 2vh;
+    margin-bottom: 0;
+    height: 10%;
+    margin-left: 10%;
+    font-size: 1.5vh;
+
+  }
+  .ig-logo2 {
+    margin-top: .9vh;
+    height: 10%;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-bottom: 0;
+
+  }
+  .report {
+    margin-top: 2vh;
+    height: 20%;
+    margin-bottom: 0;
+    height: 10%;
+    font-size: 1.5vh;
+
+
+
+  }
+  .twitter-logo2 {
+    margin-top: .9vh;
+    height: 10%;
+    margin-right: 1vw;
+    margin-bottom: 0;
+
+  }
 }
-.transfer1{
-  height: 10%;
+
+
+@media screen and (max-height: 736px) and (max-width: 500px) {
+  .contact {
+    height: 30%;
+  }
+
+  .twitter-logo2{
+    margin-top: 1.5vh;
+  }
+  .ig-logo2{
+    margin-top: 1.5vh;
+  }
 }
-}
+ @media screen and (max-height: 667px) and (max-width: 375px) {
+  .contact {
+    height: 22%;
+  }
+
+} 
 
 
